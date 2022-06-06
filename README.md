@@ -1,3 +1,7 @@
+#
+A simple panel dashboard made using react and node.
+Site is hosted using netlify on https://629e42d77ea53570df69c5a0--teal-custard-b83faa.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
