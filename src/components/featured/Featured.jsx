@@ -4,8 +4,6 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { CircularProgressBar } from "@tomik23/react-circular-progress-bar";
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
 
 export const Featured = () => {
   let props = {
@@ -38,7 +36,7 @@ export const Featured = () => {
       </div>
       <div className="bottom">
         <div className="featuredChart">
-          <CircularProgressbar value={70} text={"70%"} strokeWidth={1} />
+          <CircularProgressBar {...props} />
         </div>
         <p className="title">Total sales made today</p>
         <p className="amount">$420</p>
