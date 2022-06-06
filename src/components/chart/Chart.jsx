@@ -22,7 +22,7 @@ const data = [
 export const Chart = ({ aspect, title }) => {
   return (
     <div className="chart">
-      <div className="title">{title}</div>
+      {/* <div className="title">{title}</div>
       <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
           width={730}
@@ -47,7 +47,8 @@ export const Chart = ({ aspect, title }) => {
             fill="url(#total)"
           />
         </AreaChart>
-      </ResponsiveContainer>
+      </ResponsiveContainer> */}
+      hh
     </div>
   );
 };
